@@ -29,6 +29,15 @@ void input() {
     }
 }
 
+void swap(int x, int y)
+{
+    int temp;
+    a[x] = a[y];
+    a[y] = temp;
+}
+
+
+
    
 
 
