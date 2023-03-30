@@ -89,23 +89,14 @@ void display() {
     cout << " Number of data movements : " << mov_count << endl;
 }
 
-
-
-
-
-   
-
-
-
-
-
-
-
 int main()
-
-
 {
-    std::cout << "Hello World!\n";
+    input();
+    q_sort(0, n - 1);
+    display();
+    system("Pause");
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
