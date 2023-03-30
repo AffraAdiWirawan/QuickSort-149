@@ -5,6 +5,7 @@ using namespace std;
 
 int a[20]; 
 int cmp_count = 0;
+int mov_count = 0;
 
 
 
