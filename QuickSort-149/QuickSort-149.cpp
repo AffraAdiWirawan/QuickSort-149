@@ -32,6 +32,7 @@ void input() {
 void swap(int x, int y)
 {
     int temp;
+    temp = a[x];
     a[x] = a[y];
     a[y] = temp;
 }
@@ -85,7 +86,7 @@ void display() {
         cout << a[i] << " ";
 
     }
-    cout << "\n\Number Of Comparasions : " << cmp_count << endl;
+    cout << "\nNumber Of Comparasions : " << cmp_count << endl;
     cout << " Number of data movements : " << mov_count << endl;
 }
 
