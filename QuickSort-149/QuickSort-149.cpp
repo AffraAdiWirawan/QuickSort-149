@@ -36,7 +36,7 @@ void swap(int x, int y)
     a[y] = temp;
 }
 
-void q_shor(int low, int high)
+void q_sort(int low, int high)
 {
     int pivot, i, j;
     if (low > high)
@@ -68,7 +68,15 @@ void q_shor(int low, int high)
          mov_count++;
         }
     }
+    if (low < j)
+    {
+        swap(low, j);
+        mov_count++;
+    }
+    q_sort(low, j - 1);
+    q_sort(j + 1, high);
 }
+
 
 
    
