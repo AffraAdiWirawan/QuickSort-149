@@ -55,6 +55,13 @@ void q_shor(int low, int high)
             cmp_count++;
         }
         cmp_count++;
+
+     while ((a[j] > pivot) && (j >= low))
+        {
+            j--;
+            cmp_count++;
+        }
+     cmp_count++;
     }
 }
 
