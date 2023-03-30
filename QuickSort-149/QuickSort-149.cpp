@@ -9,7 +9,17 @@ int mov_count = 0;
 int n;
 
 void input() {
+    while (true) {
+        cout << " Masukkan Panjang Element Array : ";
+        cin >> n;
+        if (n <= 20)
+            break;
+        else
+            cout << "\n Maksimuam panjang array addalah 20";
+      
+    }
 }
+
    
 
 
