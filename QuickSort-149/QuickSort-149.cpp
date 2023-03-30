@@ -36,6 +36,17 @@ void swap(int x, int y)
     a[y] = temp;
 }
 
+void q_shor(int low, int high)
+{
+    int pivot, i, j;
+    if (low > high)
+        return;
+    
+    pivot = a[low];
+
+    i = low + 1;
+    j = high;
+}
 
 
    
